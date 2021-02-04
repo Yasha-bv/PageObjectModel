@@ -20,7 +20,7 @@ public class FreeCrmTest {
 
 	@BeforeMethod
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/YASHA/Downloads/chromedriver_win32");
+		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/first pipeline project/chromedriver");
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
 		driver.get("https://www.freecrm.com/index.html");
